@@ -1,0 +1,300 @@
+{
+    "type": "record",
+    "name": "TransactionRecord",
+    "fields": [
+        {
+            "name": "TransactionID",
+            "type": [
+                "null",
+                "int"
+            ]
+        },
+        {
+            "name": "id_01",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_02",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_03",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_04",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_05",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_06",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_07",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_08",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_09",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_10",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_11",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_12",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_13",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_14",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_15",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_16",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_17",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_18",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_19",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_20",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_21",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_22",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_23",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_24",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_25",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_26",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_27",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_28",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_29",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_30",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_31",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_32",
+            "type": [
+                "null",
+                "float"
+            ]
+        },
+        {
+            "name": "id_33",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_34",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_35",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_36",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_37",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "id_38",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "DeviceType",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "DeviceInfo",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "TransactionDT",
+            "type": [
+                "null",
+                "float"
+            ]
+        }
+    ]
+}
