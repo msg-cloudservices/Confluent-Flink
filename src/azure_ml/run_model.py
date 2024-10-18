@@ -19,6 +19,10 @@ def init():
 
 def run(raw_input):
     # Parse JSON
+
+    # Note: If you use the workaround where all feature are encoded as a single JSON string,
+    # you need to add the following line:
+    # raw_input = json.loads(raw_input)["jsonInput"]
     parsed_input = json.loads(raw_input)
 
     # Convert parsed input to dict with numpy arrays as values
