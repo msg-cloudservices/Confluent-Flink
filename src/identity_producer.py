@@ -12,17 +12,10 @@ load_dotenv()
 
 
 def reading_to_dict(identity_event: IdentityRecord, ctx):
-    """
-    This function converts the Identity object to a dictionary which
-    can be serialized into Avro format.
-    """
     return identity_event.to_dict()
 
+
 def reading_key_to_dict(identity_key, ctx):
-    """
-    This function converts the Identity object to a dictionary which
-    can be serialized into Avro format.
-    """
     return {"TransactionID":int(identity_key)}
 
 
@@ -120,12 +113,12 @@ def main():
 
             timeDelta = event.TransactionDT
             delayInS = (timeDelta if (previousTime == 0) else timeDelta - previousTime) 
-            print(delayInS)
-            time.sleep(delayInS)
+            #print(delayInS)
+            #time.sleep(delayInS)
 
             producer.produce(
                 topic=topic,
-                key=string_serializer(str(event.TransactionID), SerializationContext(topic=topic, field=MessageField.KEY)),
+                key=avro_key_serializer(column[0], SerializationContext(topic=topic, field=MessageField.KEY)),
                 value=avro_serializer(event, SerializationContext(topic, MessageField.VALUE)),
             )
             counter += 1

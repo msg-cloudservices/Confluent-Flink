@@ -1,20 +1,11 @@
 {
+    "name": "record",
+    "namespace": "org.apache.flink.avro.generated",
     "type": "record",
-    "name": "TransactionRecord",
-    "fields": [        
-        {
-            "name": "TransactionID",
-            "type": [
-                "null",
-                "int"
-            ]
-        },
+    "fields": [               
         {
             "name": "TransactionDT",
-            "type": [
-                "null",
-                "float"
-            ]
+            "type": "float"            
         },
         {
             "name": "TransactionAmt",
@@ -2752,6 +2743,14 @@
                 "null",
                 "string"
             ]
+        },
+        {
+            "name": "Timestamp",
+            "type": {
+                "logicalType": "local-timestamp-millis",
+                "type": "long"
+                }            
         }
+
     ]
 }

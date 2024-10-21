@@ -2,8 +2,7 @@ from dataclasses import dataclass
 from typing import Optional
 
 @dataclass
-class TransactionRecord:    
-    TransactionID: int
+class TransactionRecord:   
     TransactionDT: float
     TransactionAmt: float
     ProductCD: str
@@ -395,12 +394,12 @@ class TransactionRecord:
     V336: Optional[float]
     V337: Optional[float]
     V338: Optional[float]
-    V339: Optional[float]
+    V339: Optional[float]    
+    Timestamp: int
     isFraud: float
 
     def to_dict(self) -> dict:
         return {
-            "TransactionID": self.TransactionID,
             "TransactionDT": self.TransactionDT,
             "TransactionAmt": self.TransactionAmt,
             "ProductCD": self.ProductCD,
@@ -455,5 +454,6 @@ class TransactionRecord:
             "M8": self.M8,
             "M9": self.M9,
             **{f"V{i}": getattr(self, f"V{i}") for i in range(1, 340)},
+            "Timestamp": self.Timestamp,
             "isFraud": self.isFraud,
         }
