@@ -1,12 +1,14 @@
+import csv
+import os
+
+from dotenv import load_dotenv
 from confluent_kafka import Producer
 from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.avro import AvroSerializer
 from confluent_kafka.serialization import StringSerializer, SerializationContext, MessageField
-import csv
-import os
-from dotenv import load_dotenv
 
 from transaction import TransactionRecord
+
 
 load_dotenv()
 

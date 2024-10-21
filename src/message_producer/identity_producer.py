@@ -1,15 +1,17 @@
+import csv
+import os
+import time
+
+from dotenv import load_dotenv
 from confluent_kafka import Producer
 from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.avro import AvroSerializer
 from confluent_kafka.serialization import SerializationContext, MessageField
-import csv
-import os
-from dotenv import load_dotenv
+
 from identity import IdentityRecord
-import time
+
 
 load_dotenv()
-
 
 def reading_to_dict(identity_event: IdentityRecord, ctx):
     return identity_event.to_dict()
