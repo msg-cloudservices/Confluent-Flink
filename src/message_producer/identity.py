@@ -1,10 +1,8 @@
 from dataclasses import dataclass
 from typing import Optional
 
-
 @dataclass
 class IdentityRecord:
-    TransactionID: int
     id_01: Optional[float]
     id_02: Optional[float]
     id_03: Optional[float]
@@ -46,11 +44,10 @@ class IdentityRecord:
     DeviceType: Optional[str]
     DeviceInfo: Optional[str]
     TransactionDT: float
-
+    Timestamp: int
 
     def to_dict(self) -> dict:
         return {
-            "TransactionID": self.TransactionID,
             "id_01": self.id_01,
             "id_02": self.id_02,
             "id_03": self.id_03,
@@ -92,5 +89,6 @@ class IdentityRecord:
             "DeviceType": self.DeviceType,
             "DeviceInfo": self.DeviceInfo,
             "TransactionDT": self.TransactionDT,
+            "Timestamp": self.Timestamp
         }
 
