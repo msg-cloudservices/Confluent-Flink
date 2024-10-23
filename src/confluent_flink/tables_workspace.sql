@@ -45,7 +45,7 @@ CREATE TABLE identities (
     TransactionDTDatetime STRING,
     `Timestamp` TIMESTAMP(3) NOT NULL,
     PRIMARY KEY (TransactionID) NOT ENFORCED,
-    WATERMARK FOR `Timestamp` AS `Timestamp` - INTERVAL '30' SECOND
+    WATERMARK FOR `Timestamp` AS `Timestamp` - INTERVAL '5' SECOND
 ) WITH ('changelog.mode' = 'append');
 
 /* Create trasaction table */
@@ -446,7 +446,7 @@ CREATE TABLE transactions (
     `Timestamp` TIMESTAMP(3) NOT NULL,
     TransactionDTDatetime STRING,
     PRIMARY KEY (TransactionID) NOT ENFORCED,
-    WATERMARK FOR `Timestamp` AS `Timestamp` - INTERVAL '30' SECOND
+    WATERMARK FOR `Timestamp` AS `Timestamp` - INTERVAL '5' SECOND
 ) WITH ('changelog.mode' = 'append');
 
 /* Join transaction and identity table */
