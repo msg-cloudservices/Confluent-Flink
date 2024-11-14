@@ -3,22 +3,23 @@ from typing import Optional
 
 
 @dataclass
-class TransactionRecord:   
+class TransactionRecord:
+    TransactionID: int
     TransactionDT: float
     TransactionAmt: float
     ProductCD: str
     card1: int
     card2: Optional[float]
     card3: Optional[float]
-    card4: Optional[str]
+    card4: str
     card5: Optional[float]
-    card6: Optional[str]
+    card6: str
     addr1: Optional[float]
     addr2: Optional[float]
     dist1: Optional[float]
     dist2: Optional[float]
-    P_emaildomain: Optional[str]
-    R_emaildomain: Optional[str]
+    P_emaildomain: str
+    R_emaildomain: str
     C1: float
     C2: float
     C3: float
@@ -38,25 +39,18 @@ class TransactionRecord:
     D3: float
     D4: Optional[float]
     D5: Optional[float]
-    D6: Optional[float]
-    D7: Optional[float]
-    D8: Optional[float]
-    D9: Optional[float]
     D10: Optional[float]
     D11: Optional[float]
-    D12: Optional[float]
-    D13: Optional[float]
-    D14: Optional[float]
     D15: Optional[float]
-    M1: Optional[str]
-    M2: Optional[str]
-    M3: Optional[str]
-    M4: Optional[str]
-    M5: Optional[str]
-    M6: Optional[str]
-    M7: Optional[str]
-    M8: Optional[str]
-    M9: Optional[str]
+    M1: str
+    M2: str
+    M3: str
+    M4: str
+    M5: str
+    M6: str
+    M7: str
+    M8: str
+    M9: str
     V1: Optional[float]
     V2: Optional[float]
     V3: Optional[float]
@@ -378,24 +372,6 @@ class TransactionRecord:
     V319: Optional[float]
     V320: Optional[float]
     V321: Optional[float]
-    V322: Optional[float]
-    V323: Optional[float]
-    V324: Optional[float]
-    V325: Optional[float]
-    V326: Optional[float]
-    V327: Optional[float]
-    V328: Optional[float]
-    V329: Optional[float]
-    V330: Optional[float]
-    V331: Optional[float]
-    V332: Optional[float]
-    V333: Optional[float]
-    V334: Optional[float]
-    V335: Optional[float]
-    V336: Optional[float]
-    V337: Optional[float]
-    V338: Optional[float]
-    V339: Optional[float]    
     Timestamp: int
     isFraud: float
 
@@ -435,15 +411,8 @@ class TransactionRecord:
             "D3": self.D3,
             "D4": self.D4,
             "D5": self.D5,
-            "D6": self.D6,
-            "D7": self.D7,
-            "D8": self.D8,
-            "D9": self.D9,
             "D10": self.D10,
             "D11": self.D11,
-            "D12": self.D12,
-            "D13": self.D13,
-            "D14": self.D14,
             "D15": self.D15,
             "M1": self.M1,
             "M2": self.M2,
@@ -454,7 +423,7 @@ class TransactionRecord:
             "M7": self.M7,
             "M8": self.M8,
             "M9": self.M9,
-            **{f"V{i}": getattr(self, f"V{i}") for i in range(1, 340)},
+            **{f"V{i}": getattr(self, f"V{i}") for i in range(1, 322)},
             "Timestamp": self.Timestamp,
             "isFraud": self.isFraud,
         }

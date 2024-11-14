@@ -82,10 +82,7 @@
         },
         {
             "name": "id_12",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_13",
@@ -103,17 +100,11 @@
         },
         {
             "name": "id_15",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_16",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_17",
@@ -159,10 +150,7 @@
         },
         {
             "name": "id_23",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_24",
@@ -187,38 +175,23 @@
         },
         {
             "name": "id_27",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_28",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_29",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_30",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_31",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_32",
@@ -229,59 +202,35 @@
         },
         {
             "name": "id_33",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_34",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_35",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_36",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_37",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "id_38",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "DeviceType",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "DeviceInfo",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "TransactionDT",

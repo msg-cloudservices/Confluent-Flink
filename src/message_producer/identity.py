@@ -14,35 +14,35 @@ class IdentityRecord:
     id_09: Optional[float]
     id_10: Optional[float]
     id_11: Optional[float]
-    id_12: Optional[str]
+    id_12: str
     id_13: Optional[float]
     id_14: Optional[float]
-    id_15: Optional[str]
-    id_16: Optional[str]
+    id_15: str
+    id_16: str
     id_17: Optional[float]
     id_18: Optional[float]
     id_19: Optional[float]
     id_20: Optional[float]
     id_21: Optional[float]
     id_22: Optional[float]
-    id_23: Optional[str]
+    id_23: str
     id_24: Optional[float]
     id_25: Optional[float]
     id_26: Optional[float]
-    id_27: Optional[str]
-    id_28: Optional[str]
-    id_29: Optional[str]
-    id_30: Optional[str]
-    id_31: Optional[str]
+    id_27: str
+    id_28: str
+    id_29: str
+    id_30: str
+    id_31: str
     id_32: Optional[float]
-    id_33: Optional[str]
-    id_34: Optional[str]
-    id_35: Optional[str]
-    id_36: Optional[str]
-    id_37: Optional[str]
-    id_38: Optional[str]
-    DeviceType: Optional[str]
-    DeviceInfo: Optional[str]
+    id_33: str
+    id_34: str
+    id_35: str
+    id_36: str
+    id_37: str
+    id_38: str
+    DeviceType: str
+    DeviceInfo: str
     TransactionDT: float
     Timestamp: int
 

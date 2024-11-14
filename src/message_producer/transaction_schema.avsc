@@ -16,10 +16,7 @@
         },
         {
             "name": "ProductCD",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "card1",
@@ -44,10 +41,7 @@
         },
         {
             "name": "card4",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "card5",
@@ -58,10 +52,7 @@
         },
         {
             "name": "card6",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "addr1",
@@ -88,22 +79,16 @@
             "name": "dist2",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "P_emaildomain",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "R_emaildomain",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "C1",
@@ -239,34 +224,6 @@
             ]
         },
         {
-            "name": "D6",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "D7",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "D8",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "D9",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
             "name": "D10",
             "type": [
                 "null",
@@ -281,27 +238,6 @@
             ]
         },
         {
-            "name": "D12",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "D13",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "D14",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
             "name": "D15",
             "type": [
                 "null",
@@ -310,66 +246,39 @@
         },
         {
             "name": "M1",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "M2",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "M3",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "M4",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "M5",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "M6",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "M7",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "M8",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "M9",
-            "type": [
-                "null",
-                "string"
-            ]
+            "type": "string"
         },
         {
             "name": "V1",
@@ -1334,987 +1243,987 @@
             "name": "V138",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V139",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V140",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V141",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V142",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V143",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V144",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V145",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V146",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V147",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V148",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V149",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V150",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V151",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V152",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V153",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V154",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V155",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V156",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V157",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V158",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V159",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V160",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V161",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V162",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V163",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V164",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V165",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V166",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V167",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V168",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V169",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V170",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V171",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V172",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V173",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V174",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V175",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V176",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V177",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V178",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V179",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V180",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V181",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V182",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V183",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V184",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V185",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V186",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V187",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V188",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V189",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V190",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V191",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V192",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V193",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V194",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V195",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V196",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V197",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V198",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V199",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V200",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V201",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V202",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V203",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V204",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V205",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V206",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V207",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V208",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V209",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V210",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V211",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V212",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V213",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V214",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V215",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V216",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V217",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V218",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V219",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V220",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V221",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V222",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V223",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V224",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V225",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V226",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V227",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V228",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V229",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V230",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V231",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V232",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V233",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V234",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V235",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V236",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V237",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V238",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V239",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V240",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V241",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V242",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V243",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V244",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V245",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V246",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V247",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V248",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V249",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V250",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V251",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V252",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V253",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V254",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V255",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V256",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V257",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V258",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V259",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V260",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V261",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V262",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V263",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V264",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V265",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V266",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V267",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V268",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V269",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V270",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V271",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V272",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V273",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V274",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V275",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V276",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V277",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
             "name": "V278",
             "type": [
                 "null",
-                "string"
+                "float"
             ]
         },
         {
@@ -2616,132 +2525,6 @@
             "type": [
                 "null",
                 "float"
-            ]
-        },
-        {
-            "name": "V322",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V323",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V324",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V325",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V326",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V327",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V328",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V329",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V330",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V331",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V332",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V333",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V334",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V335",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V336",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V337",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V338",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "V339",
-            "type": [
-                "null",
-                "string"
             ]
         },
         {
