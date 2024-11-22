@@ -2,7 +2,7 @@
  * Create model
  * (Uses workaround where all features are encoded as a JSON string)
  */
-CREATE MODEL `flink-streaming`.`flink-streamer`.`frauddetection_json`
+CREATE MODEL `frauddetection_json`
 INPUT (jsonInput STRING)
 OUTPUT (isFraud INT) /* 0 or 1 */
 WITH(
