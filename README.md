@@ -18,3 +18,11 @@ Run the identity and transaction producers:
 ```Bash
 python src/message_producer/transaction_producer.py & python src/message_producer/identity_producer.py
 ```
+
+## Creating Flink connection to AzureML
+Create a confluent connection to the AzureML endpoint:
+"""
+confluent login --save
+
+confluent flink connection create "azureml-fraud-detection" --cloud "azure" --region "westeurope" --type "azureml" --endpoint "<endpoint-url>" --api-key "<api-key>" 
+"""
