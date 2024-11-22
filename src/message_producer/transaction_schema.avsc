@@ -4,10 +4,6 @@
     "type": "record",
     "fields": [               
         {
-            "name": "TransactionDT",
-            "type": "float"            
-        },
-        {
             "name": "TransactionAmt",
             "type": [
                 "null",
@@ -2526,6 +2522,10 @@
                 "null",
                 "float"
             ]
+        },
+        {
+            "name": "TransactionDT",
+            "type": "float"            
         },
         {
             "name": "Timestamp",

@@ -4,8 +4,7 @@ from typing import Optional
 
 @dataclass
 class TransactionRecord:
-    TransactionID: int
-    TransactionDT: float
+    TransactionID: int 
     TransactionAmt: float
     ProductCD: str
     card1: int
@@ -372,12 +371,13 @@ class TransactionRecord:
     V319: Optional[float]
     V320: Optional[float]
     V321: Optional[float]
+    TransactionDT: float
     Timestamp: int
     isFraud: float
 
     def to_dict(self) -> dict:
         return {
-            "TransactionDT": self.TransactionDT,
+            # Exclude transactionID since it is processed separatly by Kafka as key and not value
             "TransactionAmt": self.TransactionAmt,
             "ProductCD": self.ProductCD,
             "card1": self.card1,
@@ -424,6 +424,7 @@ class TransactionRecord:
             "M8": self.M8,
             "M9": self.M9,
             **{f"V{i}": getattr(self, f"V{i}") for i in range(1, 322)},
+            "TransactionDT": self.TransactionDT,
             "Timestamp": self.Timestamp,
             "isFraud": self.isFraud,
         }
