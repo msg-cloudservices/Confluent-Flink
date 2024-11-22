@@ -422,6 +422,21 @@ def check_type(key) -> str:
 
     return types[key]
 
+def convert_json_to_numpy_dict(data):
+    result = {}
+    for key, value in data.items():
+        if isinstance(value, str):
+            result[key] = np.array([[value]], dtype=object)
+        elif value is None:
+            if check_type(key) == "str":
+                result[key] = np.array([[""]], dtype=object)
+            else:
+                result[key] = np.array([[np.nan]], dtype=np.float32)
+        else:
+            result[key] = np.array([[value]], dtype=np.float32)
+    return result
+
+
 def init():
     model_name = "pipeline"
     # use AZUREML_MODEL_DIR to get your deployed model(s). If multiple models are deployed,
@@ -444,20 +459,6 @@ def run(raw_input):
     parsed_input = json.loads(raw_input)
    
     # Convert parsed input to dict with numpy arrays as values
-    def convert_json_to_numpy_dict(data):
-        result = {}
-        for key, value in data.items():
-            if isinstance(value, str):
-                result[key] = np.array([[value]], dtype=object)
-            elif value is None:
-                if check_type(key) == "str":
-                    result[key] = np.array([[""]], dtype=object)
-                else:
-                    result[key] = np.array([[np.nan]], dtype=np.float32)
-            else:
-                result[key] = np.array([[value]], dtype=np.float32)
-        return result
-
     parsed_input = convert_json_to_numpy_dict(parsed_input)
 
     # Predict
