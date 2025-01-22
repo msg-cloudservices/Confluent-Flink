@@ -119,7 +119,7 @@ def main():
                 M7=column[51] if column[51] else "",
                 M8=column[52] if column[52] else "",
                 M9=column[53] if column[53] else "",
-                **{f"V{i}": float(column[53 + i]) if column[53 + i] else None for i in range(1, 322)},
+                **{f"V{i}": float(column[53 + i]) if column[53 + i] else None for i in range(1, 31)},
                 Timestamp=(time.time())*1000,
                 isFraud=(column[-1])
             )

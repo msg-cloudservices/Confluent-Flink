@@ -1,5 +1,5 @@
 {    
-    "name": "record",
+    "name": "identities_value",
     "namespace": "org.apache.flink.avro.generated",
     "type": "record",
     "fields": [
