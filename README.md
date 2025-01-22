@@ -30,3 +30,6 @@ confluent login --save
 
 confluent flink connection create "azureml-fraud-detection" --cloud "azure" --region "westeurope" --type "azureml" --endpoint "<endpoint-url>" --api-key "<api-key>" 
 ```
+
+## Workaround using more than 85 features
+At the moment (December 2024), the Confluent Flink AI integration does not support using more than 85 features. A workaround can be found on the branch `all-features-workaround`.
