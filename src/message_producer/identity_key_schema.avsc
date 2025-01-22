@@ -5,7 +5,7 @@
       "type": "int"
     }
   ],
-  "name": "record",
+  "name": "identities_key",
   "namespace": "org.apache.flink.avro.generated",
   "type": "record"
 }

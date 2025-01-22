@@ -3,6 +3,9 @@
 This repository contains the code for our project testing Confluent's integration of AI Model Inference on Confluent Cloud for Apache Flink. We used the Kaggle IEEE-CIS Fraud Detection Dataset and wrote an accompanying blog article providing hands-on instructions how to build this usecase yourself.
 The link to the blog will shortly be published here.
 
+## Architecture
+![Architecture](architecture.png)
+
 ## Running Event Producers
 Set the following environment variables:
 ```Bash
@@ -21,8 +24,9 @@ python src/message_producer/transaction_producer.py & python src/message_produce
 
 ## Creating Flink connection to AzureML
 Create a confluent connection to the AzureML endpoint:
-"""
+
+```
 confluent login --save
 
 confluent flink connection create "azureml-fraud-detection" --cloud "azure" --region "westeurope" --type "azureml" --endpoint "<endpoint-url>" --api-key "<api-key>" 
-"""
+```
